@@ -1,0 +1,193 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "DutchAuctionCalculator",
+  "sourceName": "contracts/lop/extensions/DutchAuctionCalculator.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "salt",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "maker",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "receiver",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "makerAsset",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "takerAsset",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "makingAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "takingAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "MakerTraits",
+              "name": "makerTraits",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct IOrderMixin.Order",
+          "name": "order",
+          "type": "tuple"
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "takingAmount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "extraData",
+          "type": "bytes"
+        }
+      ],
+      "name": "getMakingAmount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "salt",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "maker",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "receiver",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "makerAsset",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "takerAsset",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "makingAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "takingAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "MakerTraits",
+              "name": "makerTraits",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct IOrderMixin.Order",
+          "name": "order",
+          "type": "tuple"
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "makingAmount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "extraData",
+          "type": "bytes"
+        }
+      ],
+      "name": "getTakingAmount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608080604052346100165761032e908161001c8239f35b600080fdfe6080604052600436101561001257600080fd5b6000803560e01c80631d9671c3146100c75763d7ff8a801461003357600080fd5b346100c45761005f60a061006a61006561004c36610141565b94509450509594989350508101906101eb565b9161028e565b610206565b9101359182156100b2575060016100a56020937fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8401610248565b0190151502604051908152f35b634e487b71905260126020526024601cfd5b80fd5b50346100c457602061010661005f6101016100f960a06100e636610141565b94509450509694989350508101906101eb565b930135610206565b610248565b604051908152f35b9181601f8401121561013c5782359167ffffffffffffffff831161013c576020838186019501011161013c57565b600080fd5b907ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc82016101c0811261013c576101001361013c5760049167ffffffffffffffff906101043582811161013c578161019b9160040161010e565b9390939261012435926101443573ffffffffffffffffffffffffffffffffffffffff8116810361013c5792610164359261018435926101a43591821161013c576101e79160040161010e565b9091565b9081606091031261013c578035916040602083013592013590565b8181029291811591840414171561021957565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b8115610252570490565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601260045260246000fd5b9190820391821161021957565b916102d96fffffffffffffffffffffffffffffffff8460801c9416916102cd856102d34286104287180242188083118184180218966102cd8888610281565b90610206565b95610281565b8201809211610219576102f5926102ef91610281565b90610248565b9056fea26469706673582212204f225901edd9358f19cee08d2c01692efc5ed66b7345e0f53ef469a30e2c65d264736f6c63430008170033",
+  "deployedBytecode": "0x6080604052600436101561001257600080fd5b6000803560e01c80631d9671c3146100c75763d7ff8a801461003357600080fd5b346100c45761005f60a061006a61006561004c36610141565b94509450509594989350508101906101eb565b9161028e565b610206565b9101359182156100b2575060016100a56020937fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8401610248565b0190151502604051908152f35b634e487b71905260126020526024601cfd5b80fd5b50346100c457602061010661005f6101016100f960a06100e636610141565b94509450509694989350508101906101eb565b930135610206565b610248565b604051908152f35b9181601f8401121561013c5782359167ffffffffffffffff831161013c576020838186019501011161013c57565b600080fd5b907ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc82016101c0811261013c576101001361013c5760049167ffffffffffffffff906101043582811161013c578161019b9160040161010e565b9390939261012435926101443573ffffffffffffffffffffffffffffffffffffffff8116810361013c5792610164359261018435926101a43591821161013c576101e79160040161010e565b9091565b9081606091031261013c578035916040602083013592013590565b8181029291811591840414171561021957565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b8115610252570490565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601260045260246000fd5b9190820391821161021957565b916102d96fffffffffffffffffffffffffffffffff8460801c9416916102cd856102d34286104287180242188083118184180218966102cd8888610281565b90610206565b95610281565b8201809211610219576102f5926102ef91610281565b90610248565b9056fea26469706673582212204f225901edd9358f19cee08d2c01692efc5ed66b7345e0f53ef469a30e2c65d264736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

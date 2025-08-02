@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "GnosisSafeMath",
+  "sourceName": "@gnosis.pm/safe-contracts/contracts/external/GnosisSafeMath.sol",
+  "abi": [],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea2646970667358221220bc6b3764ae9a0ed174c7173b3d678721ff34bac471d09f655489477bda1d960c64736f6c63430008170033",
+  "deployedBytecode": "0x600080fdfea2646970667358221220bc6b3764ae9a0ed174c7173b3d678721ff34bac471d09f655489477bda1d960c64736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

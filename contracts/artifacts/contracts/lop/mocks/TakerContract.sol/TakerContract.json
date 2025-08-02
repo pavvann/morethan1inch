@@ -1,0 +1,97 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "TakerContract",
+  "sourceName": "contracts/lop/mocks/TakerContract.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "contract IOrderMixin",
+          "name": "swap",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "salt",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "maker",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "receiver",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "makerAsset",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "takerAsset",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "makingAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "takingAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "MakerTraits",
+              "name": "makerTraits",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct IOrderMixin.Order",
+          "name": "order",
+          "type": "tuple"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "r",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "vs",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "TakerTraits",
+          "name": "takerTraits",
+          "type": "uint256"
+        }
+      ],
+      "name": "fillOrder",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60a03461006a57601f61029138819003918201601f19168301916001600160401b0383118484101761006f5780849260209460405283398101031261006a57516001600160a01b038116810361006a5760805260405161020b90816100868239608051816101060152f35b600080fd5b634e487b7160e01b600052604160045260246000fdfe608080604052600436101561001357600080fd5b600090813560e01c639fda64bd1461002a57600080fd5b7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc360161018081126101d157610100136101cd5761010461012461014490610164927f9fda64bd0000000000000000000000000000000000000000000000000000000085526004356004860152602435602486015260443560448601526064356064860152608435608486015260a43560a486015260c43560c486015260e43560e4860152803590850152803590840152803590830152803590820152606081610184813473ffffffffffffffffffffffffffffffffffffffff7f0000000000000000000000000000000000000000000000000000000000000000165af180156101c257610136575080f35b60603d6060116101bb575b7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0601f820116820167ffffffffffffffff83821091111761018e57906060918101031261018b5780f35b80fd5b6024837f4e487b710000000000000000000000000000000000000000000000000000000081526041600452fd5b503d610141565b6040513d84823e3d90fd5b5080fd5b8280fdfea2646970667358221220730d2bcc75f0909034501f4022e2f257cfe06813d755ecc156cc9625ce24c8e564736f6c63430008170033",
+  "deployedBytecode": "0x608080604052600436101561001357600080fd5b600090813560e01c639fda64bd1461002a57600080fd5b7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc360161018081126101d157610100136101cd5761010461012461014490610164927f9fda64bd0000000000000000000000000000000000000000000000000000000085526004356004860152602435602486015260443560448601526064356064860152608435608486015260a43560a486015260c43560c486015260e43560e4860152803590850152803590840152803590830152803590820152606081610184813473ffffffffffffffffffffffffffffffffffffffff7f0000000000000000000000000000000000000000000000000000000000000000165af180156101c257610136575080f35b60603d6060116101bb575b7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0601f820116820167ffffffffffffffff83821091111761018e57906060918101031261018b5780f35b80fd5b6024837f4e487b710000000000000000000000000000000000000000000000000000000081526041600452fd5b503d610141565b6040513d84823e3d90fd5b5080fd5b8280fdfea2646970667358221220730d2bcc75f0909034501f4022e2f257cfe06813d755ecc156cc9625ce24c8e564736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,122 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "OrderIdInvalidator",
+  "sourceName": "contracts/lop/extensions/OrderIdInvalidator.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "limitOrderProtocol_",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "AccessDenied",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "InvalidOrderHash",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "salt",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "maker",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "receiver",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "makerAsset",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "takerAsset",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "makingAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "takingAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "MakerTraits",
+              "name": "makerTraits",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct IOrderMixin.Order",
+          "name": "order",
+          "type": "tuple"
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "orderHash",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "extraData",
+          "type": "bytes"
+        }
+      ],
+      "name": "preInteraction",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60a03461006957601f6102d438819003918201601f19168301916001600160401b0383118484101761006e5780849260209460405283398101031261006957516001600160a01b03811681036100695760805260405161024f908161008582396080518160ce0152f35b600080fd5b634e487b7160e01b600052604160045260246000fdfe60806040908082526004918236101561001757600080fd5b600092833560e01c630986bdd51461002e57600080fd5b346101de577ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36016101e081126101e257610100136101de5767ffffffffffffffff90610104358281116101da5761008990369083016101e6565b5050610124359373ffffffffffffffffffffffffffffffffffffffff9261014435848116036101d6576101c4359081116101d6576100ca90369084016101e6565b91847f00000000000000000000000000000000000000000000000000000000000000001633036101af575035907fffffffff00000000000000000000000000000000000000000000000000000000918281169184811061019b575b5050905060e01c9160243516908186528560205283862083875260205283862054801560001461016657505084528360205281842090845260205282205580f35b91509391500361017557505080f35b517fac34823a000000000000000000000000000000000000000000000000000000008152fd5b83919250840360031b1b1616803880610125565b807f4ca8886700000000000000000000000000000000000000000000000000000000859252fd5b8680fd5b8580fd5b8380fd5b8480fd5b9181601f840112156102145782359167ffffffffffffffff8311610214576020838186019501011161021457565b600080fdfea2646970667358221220e554a2ed29b17bc74e4887090b3dc1c5e8958bf5c7a912a56e7a38e127a4f12d64736f6c63430008170033",
+  "deployedBytecode": "0x60806040908082526004918236101561001757600080fd5b600092833560e01c630986bdd51461002e57600080fd5b346101de577ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36016101e081126101e257610100136101de5767ffffffffffffffff90610104358281116101da5761008990369083016101e6565b5050610124359373ffffffffffffffffffffffffffffffffffffffff9261014435848116036101d6576101c4359081116101d6576100ca90369084016101e6565b91847f00000000000000000000000000000000000000000000000000000000000000001633036101af575035907fffffffff00000000000000000000000000000000000000000000000000000000918281169184811061019b575b5050905060e01c9160243516908186528560205283862083875260205283862054801560001461016657505084528360205281842090845260205282205580f35b91509391500361017557505080f35b517fac34823a000000000000000000000000000000000000000000000000000000008152fd5b83919250840360031b1b1616803880610125565b807f4ca8886700000000000000000000000000000000000000000000000000000000859252fd5b8680fd5b8580fd5b8380fd5b8480fd5b9181601f840112156102145782359167ffffffffffffffff8311610214576020838186019501011161021457565b600080fdfea2646970667358221220e554a2ed29b17bc74e4887090b3dc1c5e8958bf5c7a912a56e7a38e127a4f12d64736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

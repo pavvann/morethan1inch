@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Clones",
+  "sourceName": "contracts/escrow/EscrowFactory.sol",
+  "abi": [],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea264697066735822122015e72e69b3ed3fd196ab75f2f152fe57dc3d084a73db26fedc164c4af1bdbb3064736f6c63430008170033",
+  "deployedBytecode": "0x600080fdfea264697066735822122015e72e69b3ed3fd196ab75f2f152fe57dc3d084a73db26fedc164c4af1bdbb3064736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

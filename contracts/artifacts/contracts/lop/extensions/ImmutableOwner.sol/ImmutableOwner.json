@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "ImmutableOwner",
+  "sourceName": "contracts/lop/extensions/ImmutableOwner.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_immutableOwner",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "IOAccessDenied",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "IMMUTABLE_OWNER",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60a03461006857601f61015038819003918201601f19168301916001600160401b0383118484101761006d5780849260209460405283398101031261006857516001600160a01b03811681036100685760805260405160cc9081610084823960805181606e0152f35b600080fd5b634e487b7160e01b600052604160045260246000fdfe6080806040526004361015601257600080fd5b600090813560e01c63f3d1372f14602857600080fd5b34609257817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011260925760209073ffffffffffffffffffffffffffffffffffffffff7f0000000000000000000000000000000000000000000000000000000000000000168152f35b5080fdfea264697066735822122051ba34c417722cdb4def867cf0bb93eb53c58a8bb356a144f2b21255eb89862764736f6c63430008170033",
+  "deployedBytecode": "0x6080806040526004361015601257600080fd5b600090813560e01c63f3d1372f14602857600080fd5b34609257817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011260925760209073ffffffffffffffffffffffffffffffffffffffff7f0000000000000000000000000000000000000000000000000000000000000000168152f35b5080fdfea264697066735822122051ba34c417722cdb4def867cf0bb93eb53c58a8bb356a144f2b21255eb89862764736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

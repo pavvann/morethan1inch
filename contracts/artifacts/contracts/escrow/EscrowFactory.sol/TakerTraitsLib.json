@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "TakerTraitsLib",
+  "sourceName": "contracts/escrow/EscrowFactory.sol",
+  "abi": [],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea26469706673582212206a0b13229797b763c26969162badb2c92135c45a9297dcff77fd8962c486902664736f6c63430008170033",
+  "deployedBytecode": "0x600080fdfea26469706673582212206a0b13229797b763c26969162badb2c92135c45a9297dcff77fd8962c486902664736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

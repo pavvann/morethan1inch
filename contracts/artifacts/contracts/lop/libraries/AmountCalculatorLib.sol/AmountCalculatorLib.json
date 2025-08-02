@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "AmountCalculatorLib",
+  "sourceName": "contracts/lop/libraries/AmountCalculatorLib.sol",
+  "abi": [],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea264697066735822122017bd0b51d7f5624c5c0950ea5cf8d5a9cd2468a473289ae6db23bc3d3e97658564736f6c63430008170033",
+  "deployedBytecode": "0x600080fdfea264697066735822122017bd0b51d7f5624c5c0950ea5cf8d5a9cd2468a473289ae6db23bc3d3e97658564736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

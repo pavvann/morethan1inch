@@ -1,0 +1,16 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Create2",
+  "sourceName": "contracts/escrow/EscrowFactory.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "Create2EmptyBytecode",
+      "type": "error"
+    }
+  ],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea2646970667358221220325d73675e708aab836131d543edf716d9f857c2e857bcb89f7fbd50fcd3756464736f6c63430008170033",
+  "deployedBytecode": "0x600080fdfea2646970667358221220325d73675e708aab836131d543edf716d9f857c2e857bcb89f7fbd50fcd3756464736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

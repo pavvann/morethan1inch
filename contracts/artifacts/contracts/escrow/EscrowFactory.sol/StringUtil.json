@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "StringUtil",
+  "sourceName": "contracts/escrow/EscrowFactory.sol",
+  "abi": [],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea264697066735822122039f3cb05db88262c02f48ed5fdc55c7a9a30da6e61bdd4432e70f24e7c8fbea864736f6c63430008170033",
+  "deployedBytecode": "0x600080fdfea264697066735822122039f3cb05db88262c02f48ed5fdc55c7a9a30da6e61bdd4432e70f24e7c8fbea864736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

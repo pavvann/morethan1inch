@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Panic",
+  "sourceName": "contracts/escrow/EscrowFactory.sol",
+  "abi": [],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea26469706673582212209c1289888efd606df5496395abc739fb5e50233ad4f4534c80b450bb86ab20cd64736f6c63430008170033",
+  "deployedBytecode": "0x600080fdfea26469706673582212209c1289888efd606df5496395abc739fb5e50233ad4f4534c80b450bb86ab20cd64736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

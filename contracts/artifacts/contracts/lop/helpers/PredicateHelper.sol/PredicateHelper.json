@@ -1,0 +1,179 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "PredicateHelper",
+  "sourceName": "contracts/lop/helpers/PredicateHelper.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "ArbitraryStaticCallFailed",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "offsets",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "and",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "target",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "arbitraryStaticCall",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "eq",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "gt",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "lt",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "not",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "offsets",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "or",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080806040523461001657610435908161001c8239f35b600080fdfe60406080815260048036101561001457600080fd5b600090813560e01c9081634f38e2b8146102505781636fe7b0ba1461021e5781637426114514610202578163bf15fcd81461014e578163bf797959146100d657508063bfa75143146100ad5763ca4ece221461006f57600080fd5b346100aa57602061008d83610083366102b5565b90939193306103d9565b819391936100a0575b5050519015158152f35b1091508380610096565b80fd5b5090346100d2576020906100c96100c3366102b5565b91610378565b90519015158152f35b5080fd5b8383346100aa5760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126100aa5782359067ffffffffffffffff82116100aa575061012c60209361013392369101610282565b90306103d9565b81929192610145575b50519015158152f35b1591508361013c565b8383346100aa57817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126100aa5782359073ffffffffffffffffffffffffffffffffffffffff821682036100aa576024359067ffffffffffffffff82116100aa5750906101c36101c99236908601610282565b916103d9565b9190156101da576020925051908152f35b9050517f1f1b8f61000000000000000000000000000000000000000000000000000000008152fd5b8284346100d2576020906100c9610218366102b5565b9161031f565b5050346100aa57602061023483610083366102b5565b81939193610246575050519015158152f35b1491508380610096565b5050346100aa57602061026683610083366102b5565b81939193610278575050519015158152f35b1191508380610096565b9181601f840112156102b05782359167ffffffffffffffff83116102b057602083818601950101116102b057565b600080fd5b9060407ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc8301126102b057600435916024359067ffffffffffffffff82116102b05761030391600401610282565b9091565b909392938483116102b05784116102b0578101920390565b9290919260005b63ffffffff821690811561036d5761012c82610343928888610307565b81610362575b50610358579060201c90610326565b5050915050600190565b600191501438610349565b505050915050600090565b9290919260009060005b63ffffffff82169081156103cd5761012c8261039f928989610307565b90159081156103c1575b506103b8579060201c90610382565b50509150915090565b600191501415386103a9565b50505050915050600190565b916000906020928294826040519283375afa60203d141691826103f857565b600051915056fea264697066735822122047cd381cef33a9a9227cead339662032c312842f45cc60facfc29c7966fe037a64736f6c63430008170033",
+  "deployedBytecode": "0x60406080815260048036101561001457600080fd5b600090813560e01c9081634f38e2b8146102505781636fe7b0ba1461021e5781637426114514610202578163bf15fcd81461014e578163bf797959146100d657508063bfa75143146100ad5763ca4ece221461006f57600080fd5b346100aa57602061008d83610083366102b5565b90939193306103d9565b819391936100a0575b5050519015158152f35b1091508380610096565b80fd5b5090346100d2576020906100c96100c3366102b5565b91610378565b90519015158152f35b5080fd5b8383346100aa5760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126100aa5782359067ffffffffffffffff82116100aa575061012c60209361013392369101610282565b90306103d9565b81929192610145575b50519015158152f35b1591508361013c565b8383346100aa57817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126100aa5782359073ffffffffffffffffffffffffffffffffffffffff821682036100aa576024359067ffffffffffffffff82116100aa5750906101c36101c99236908601610282565b916103d9565b9190156101da576020925051908152f35b9050517f1f1b8f61000000000000000000000000000000000000000000000000000000008152fd5b8284346100d2576020906100c9610218366102b5565b9161031f565b5050346100aa57602061023483610083366102b5565b81939193610246575050519015158152f35b1491508380610096565b5050346100aa57602061026683610083366102b5565b81939193610278575050519015158152f35b1191508380610096565b9181601f840112156102b05782359167ffffffffffffffff83116102b057602083818601950101116102b057565b600080fd5b9060407ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc8301126102b057600435916024359067ffffffffffffffff82116102b05761030391600401610282565b9091565b909392938483116102b05784116102b0578101920390565b9290919260005b63ffffffff821690811561036d5761012c82610343928888610307565b81610362575b50610358579060201c90610326565b5050915050600190565b600191501438610349565b505050915050600090565b9290919260009060005b63ffffffff82169081156103cd5761012c8261039f928989610307565b90159081156103c1575b506103b8579060201c90610382565b50509150915090565b600191501415386103a9565b50505050915050600190565b916000906020928294826040519283375afa60203d141691826103f857565b600051915056fea264697066735822122047cd381cef33a9a9227cead339662032c312842f45cc60facfc29c7966fe037a64736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

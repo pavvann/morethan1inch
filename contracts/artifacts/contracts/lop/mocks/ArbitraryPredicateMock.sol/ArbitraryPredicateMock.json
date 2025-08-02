@@ -1,0 +1,30 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "ArbitraryPredicateMock",
+  "sourceName": "contracts/lop/mocks/ArbitraryPredicateMock.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "arg",
+          "type": "uint256"
+        }
+      ],
+      "name": "copyArg",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608080604052346014576098908161001a8239f35b600080fdfe6080806040526004361015601257600080fd5b60003560e01c631ae4f1b614602657600080fd5b34605d5760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc360112605d576020906004358152f35b600080fdfea264697066735822122082f98d1663987ff8937b7a27642fb9d39240a0fd5fd160f959974efaf933d30964736f6c63430008170033",
+  "deployedBytecode": "0x6080806040526004361015601257600080fd5b60003560e01c631ae4f1b614602657600080fd5b34605d5760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc360112605d576020906004358152f35b600080fdfea264697066735822122082f98d1663987ff8937b7a27642fb9d39240a0fd5fd160f959974efaf933d30964736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

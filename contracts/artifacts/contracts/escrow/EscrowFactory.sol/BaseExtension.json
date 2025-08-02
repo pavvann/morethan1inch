@@ -1,0 +1,389 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "BaseExtension",
+  "sourceName": "contracts/escrow/EscrowFactory.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "limitOrderProtocol",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "OnlyLimitOrderProtocol",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "salt",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "maker",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "receiver",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "makerAsset",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "takerAsset",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "makingAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "takingAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "MakerTraits",
+              "name": "makerTraits",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct IOrderMixin.Order",
+          "name": "order",
+          "type": "tuple"
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "takingAmount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "extraData",
+          "type": "bytes"
+        }
+      ],
+      "name": "getMakingAmount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "salt",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "maker",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "receiver",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "makerAsset",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "takerAsset",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "makingAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "takingAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "MakerTraits",
+              "name": "makerTraits",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct IOrderMixin.Order",
+          "name": "order",
+          "type": "tuple"
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "makingAmount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "extraData",
+          "type": "bytes"
+        }
+      ],
+      "name": "getTakingAmount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "salt",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "maker",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "receiver",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "makerAsset",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "takerAsset",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "makingAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "takingAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "MakerTraits",
+              "name": "makerTraits",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct IOrderMixin.Order",
+          "name": "order",
+          "type": "tuple"
+        },
+        {
+          "internalType": "bytes",
+          "name": "extension",
+          "type": "bytes"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "orderHash",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "taker",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "makingAmount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "takingAmount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "remainingMakingAmount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "extraData",
+          "type": "bytes"
+        }
+      ],
+      "name": "postInteraction",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "salt",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "maker",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "receiver",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "makerAsset",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "takerAsset",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "makingAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "takingAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "MakerTraits",
+              "name": "makerTraits",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct IOrderMixin.Order",
+          "name": "order",
+          "type": "tuple"
+        },
+        {
+          "internalType": "bytes",
+          "name": "extension",
+          "type": "bytes"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "orderHash",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "taker",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "makingAmount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "takingAmount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "remainingMakingAmount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "extraData",
+          "type": "bytes"
+        }
+      ],
+      "name": "preInteraction",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60a03461007157601f610af038819003918201601f19168301916001600160401b038311848410176100765780849260209460405283398101031261007157516001600160a01b038116810361007157608052604051610a63908161008d82396080518181816101b501526105760152f35b600080fd5b634e487b7160e01b600052604160045260246000fdfe608080604052600436101561001357600080fd5b600090813560e01c9081630986bdd514610545575080631d9671c314610481578063462ebde2146101835763d7ff8a801461004d57600080fd5b346101805761006c61005e366106ac565b95509350509593505061079e565b629896809260c0830135918401908185116101535760a09161008d91610752565b920135838102938185041490151715610126576100ab838383610867565b9383156100f9575009151581018091116100ca57602090604051908152f35b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b807f4e487b7100000000000000000000000000000000000000000000000000000000602492526012600452fd5b6024847f4e487b710000000000000000000000000000000000000000000000000000000081526011600452fd5b6024867f4e487b710000000000000000000000000000000000000000000000000000000081526011600452fd5b80fd5b503461018057610192366105ff565b73ffffffffffffffffffffffffffffffffffffffff9a99939a98979598969192967f000000000000000000000000000000000000000000000000000000000000000016330361045757601481116101e7578980f35b8235967fffffffffffffffffffffffffffffffffffffffff0000000000000000000000008089169860148410610441575b5050817fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff810111610414578a9b7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff839c9b9c01601411610410578860601c3b15610410578a966040519c8d9b8c9a8b997f462ebde2000000000000000000000000000000000000000000000000000000008b52803560048c0152602081013560248c0152604081013560448c0152606081013560648c0152608081013560848c015260a081013560a48c015260c081013560c48c015260e0013560e48b01526101048a016101e090526101e48a01906103109261092b565b9561012489015273ffffffffffffffffffffffffffffffffffffffff166101448801526101648701526101848601526101a48501528382037ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc016101c48501527fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeb0191601401916103a09261092b565b039260601c5af18015610405576103c0575b808080808080808089988980f35b67ffffffffffffffff81116103d857604052386103b2565b6024827f4e487b710000000000000000000000000000000000000000000000000000000081526041600452fd5b6040513d84823e3d90fd5b8a80fd5b60248b7f4e487b710000000000000000000000000000000000000000000000000000000081526011600452fd5b601484900360031b82901b161697503880610218565b60046040517fd25aa106000000000000000000000000000000000000000000000000000000008152fd5b5034610180576104a490610494366106ac565b955093505095949693505061079e565b906298968091828402938085048414901517156105185782018092116104eb5760206104e3858560a06104db8760c0850135610752565b920135610867565b604051908152f35b807f4e487b7100000000000000000000000000000000000000000000000000000000602492526011600452fd5b6024827f4e487b710000000000000000000000000000000000000000000000000000000081526011600452fd5b9050346105c857610555366105ff565b5050505050505050505073ffffffffffffffffffffffffffffffffffffffff7f00000000000000000000000000000000000000000000000000000000000000001633036105a0575080f35b807fd25aa1060000000000000000000000000000000000000000000000000000000060049252fd5b5080fd5b9181601f840112156105fa5782359167ffffffffffffffff83116105fa57602083818601950101116105fa57565b600080fd5b7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc81016101e081126105fa57610100136105fa5760049167ffffffffffffffff610104358181116105fa5783610657916004016105cc565b9390939261012435926101443573ffffffffffffffffffffffffffffffffffffffff811681036105fa5792610164359261018435926101a435926101c4359182116105fa576106a8916004016105cc565b9091565b907ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc82016101c081126105fa57610100136105fa5760049167ffffffffffffffff90610104358281116105fa5781610706916004016105cc565b9390939261012435926101443573ffffffffffffffffffffffffffffffffffffffff811681036105fa5792610164359261018435926101a4359182116105fa576106a8916004016105cc565b818102929181159184041417156100ca57565b811561076f570490565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601260045260246000fd5b90806003116105fa57813560e81c816007116105fa57600383013560e01c908015801561085f575b156108485750506000915b81600b116105fa57600781013560e01c82600e116105fa57826011116105fa577fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef6108359301916011810191600b600e83013560e81c92013560e81c81019061096a565b81811115610841570390565b5050600090565b620f424091610858914802610765565b04916107d1565b5081156107c6565b91818302917fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8185099383808610950394808603951461091b57848311156108fb579082910981600003821680920460028082600302188083028203028083028203028083028203028083028203028083028203028092029003029360018380600003040190848311900302920304170290565b826109145760125b634e487b716000526020526024601cfd5b6011610903565b5050906109289250610765565b90565b601f82602094937fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0938186528686013760008582860101520116010190565b9091939281421115600014610980575050505090565b8293949192421015610a2357849291925b6109a75750610928935082039142900302610765565b906003908582116105fa57823560e81c906005928784116105fa5784013560f01c81019485421115610a04575050907ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb9193920194019384610991565b9250936109289650809550849193500393429003029142030201610765565b505050505060009056fea264697066735822122030071915f8a71fbe492ebe69302600d0df3cfcbb765d6f7dc15cdb1f65fced3064736f6c63430008170033",
+  "deployedBytecode": "0x608080604052600436101561001357600080fd5b600090813560e01c9081630986bdd514610545575080631d9671c314610481578063462ebde2146101835763d7ff8a801461004d57600080fd5b346101805761006c61005e366106ac565b95509350509593505061079e565b629896809260c0830135918401908185116101535760a09161008d91610752565b920135838102938185041490151715610126576100ab838383610867565b9383156100f9575009151581018091116100ca57602090604051908152f35b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b807f4e487b7100000000000000000000000000000000000000000000000000000000602492526012600452fd5b6024847f4e487b710000000000000000000000000000000000000000000000000000000081526011600452fd5b6024867f4e487b710000000000000000000000000000000000000000000000000000000081526011600452fd5b80fd5b503461018057610192366105ff565b73ffffffffffffffffffffffffffffffffffffffff9a99939a98979598969192967f000000000000000000000000000000000000000000000000000000000000000016330361045757601481116101e7578980f35b8235967fffffffffffffffffffffffffffffffffffffffff0000000000000000000000008089169860148410610441575b5050817fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff810111610414578a9b7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff839c9b9c01601411610410578860601c3b15610410578a966040519c8d9b8c9a8b997f462ebde2000000000000000000000000000000000000000000000000000000008b52803560048c0152602081013560248c0152604081013560448c0152606081013560648c0152608081013560848c015260a081013560a48c015260c081013560c48c015260e0013560e48b01526101048a016101e090526101e48a01906103109261092b565b9561012489015273ffffffffffffffffffffffffffffffffffffffff166101448801526101648701526101848601526101a48501528382037ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc016101c48501527fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeb0191601401916103a09261092b565b039260601c5af18015610405576103c0575b808080808080808089988980f35b67ffffffffffffffff81116103d857604052386103b2565b6024827f4e487b710000000000000000000000000000000000000000000000000000000081526041600452fd5b6040513d84823e3d90fd5b8a80fd5b60248b7f4e487b710000000000000000000000000000000000000000000000000000000081526011600452fd5b601484900360031b82901b161697503880610218565b60046040517fd25aa106000000000000000000000000000000000000000000000000000000008152fd5b5034610180576104a490610494366106ac565b955093505095949693505061079e565b906298968091828402938085048414901517156105185782018092116104eb5760206104e3858560a06104db8760c0850135610752565b920135610867565b604051908152f35b807f4e487b7100000000000000000000000000000000000000000000000000000000602492526011600452fd5b6024827f4e487b710000000000000000000000000000000000000000000000000000000081526011600452fd5b9050346105c857610555366105ff565b5050505050505050505073ffffffffffffffffffffffffffffffffffffffff7f00000000000000000000000000000000000000000000000000000000000000001633036105a0575080f35b807fd25aa1060000000000000000000000000000000000000000000000000000000060049252fd5b5080fd5b9181601f840112156105fa5782359167ffffffffffffffff83116105fa57602083818601950101116105fa57565b600080fd5b7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc81016101e081126105fa57610100136105fa5760049167ffffffffffffffff610104358181116105fa5783610657916004016105cc565b9390939261012435926101443573ffffffffffffffffffffffffffffffffffffffff811681036105fa5792610164359261018435926101a435926101c4359182116105fa576106a8916004016105cc565b9091565b907ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc82016101c081126105fa57610100136105fa5760049167ffffffffffffffff90610104358281116105fa5781610706916004016105cc565b9390939261012435926101443573ffffffffffffffffffffffffffffffffffffffff811681036105fa5792610164359261018435926101a4359182116105fa576106a8916004016105cc565b818102929181159184041417156100ca57565b811561076f570490565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601260045260246000fd5b90806003116105fa57813560e81c816007116105fa57600383013560e01c908015801561085f575b156108485750506000915b81600b116105fa57600781013560e01c82600e116105fa57826011116105fa577fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef6108359301916011810191600b600e83013560e81c92013560e81c81019061096a565b81811115610841570390565b5050600090565b620f424091610858914802610765565b04916107d1565b5081156107c6565b91818302917fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8185099383808610950394808603951461091b57848311156108fb579082910981600003821680920460028082600302188083028203028083028203028083028203028083028203028083028203028092029003029360018380600003040190848311900302920304170290565b826109145760125b634e487b716000526020526024601cfd5b6011610903565b5050906109289250610765565b90565b601f82602094937fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0938186528686013760008582860101520116010190565b9091939281421115600014610980575050505090565b8293949192421015610a2357849291925b6109a75750610928935082039142900302610765565b906003908582116105fa57823560e81c906005928784116105fa5784013560f01c81019485421115610a04575050907ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb9193920194019384610991565b9250936109289650809550849193500393429003029142030201610765565b505050505060009056fea264697066735822122030071915f8a71fbe492ebe69302600d0df3cfcbb765d6f7dc15cdb1f65fced3064736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

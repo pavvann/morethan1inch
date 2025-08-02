@@ -1,0 +1,265 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "AggregatorMock",
+  "sourceName": "contracts/lop/mocks/AggregatorMock.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "answer",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "NoDataPresent",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "int256",
+          "name": "current",
+          "type": "int256"
+        },
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "roundId",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "updatedAt",
+          "type": "uint256"
+        }
+      ],
+      "name": "AnswerUpdated",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "roundId",
+          "type": "uint256"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "startedBy",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "startedAt",
+          "type": "uint256"
+        }
+      ],
+      "name": "NewRound",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "decimals",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "description",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "roundId",
+          "type": "uint256"
+        }
+      ],
+      "name": "getAnswer",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint80",
+          "name": "_roundId",
+          "type": "uint80"
+        }
+      ],
+      "name": "getRoundData",
+      "outputs": [
+        {
+          "internalType": "uint80",
+          "name": "roundId",
+          "type": "uint80"
+        },
+        {
+          "internalType": "int256",
+          "name": "answer",
+          "type": "int256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "startedAt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "updatedAt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint80",
+          "name": "answeredInRound",
+          "type": "uint80"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "roundId",
+          "type": "uint256"
+        }
+      ],
+      "name": "getTimestamp",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "latestAnswer",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "latestRound",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "latestRoundData",
+      "outputs": [
+        {
+          "internalType": "uint80",
+          "name": "roundId",
+          "type": "uint80"
+        },
+        {
+          "internalType": "int256",
+          "name": "answer",
+          "type": "int256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "startedAt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "updatedAt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint80",
+          "name": "answeredInRound",
+          "type": "uint80"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "latestTimestamp",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "version",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60a03461006857601f6105f738819003918201601f19168301916001600160401b0383118484101761006d578084926020946040528339810103126100685751608052604051610573908161008482396080518181816101be0152818161042e01526105160152f35b600080fd5b634e487b7160e01b600052604160045260246000fdfe608060408181526004918236101561001657600080fd5b600092833560e01c918263313ce567146104515750816350d25bcd146103f857816354fd4d50146103be578163668a0f02146103855781637284e416146102755781638205bf6a1461023a5781639a6fc8f5146101e1578163b5ab58dc14610180578163b633620c1461010d575063feaf968c1461009357600080fd5b3461010957817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261010957610105906100cd6104e6565b945169ffffffffffffffffffff94851681526020810193909352604083019190915260608201529116608082015290819060a0820190565b0390f35b5080fd5b82843461017d5760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261017d575081356101575760209061015061048a565b9051908152f35b517fbb258700000000000000000000000000000000000000000000000000000000008152fd5b80fd5b82843461017d5760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261017d5750813561015757602090517f00000000000000000000000000000000000000000000000000000000000000008152f35b82843461017d5760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261017d5782359069ffffffffffffffffffff821680920361017d575061015757610105906100cd6104e6565b50503461010957817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126101095760209061015061048a565b90503461038157827ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc360112610381578151908282019082821067ffffffffffffffff83111761035557508252600e81526020907f41676772656761746f724d6f636b0000000000000000000000000000000000006020820152825193849260208452825192836020860152825b84811061033f57505050828201840152601f017fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0168101030190f35b8181018301518882018801528795508201610303565b8460416024927f4e487b7100000000000000000000000000000000000000000000000000000000835252fd5b8280fd5b50503461010957817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126101095751908152602090f35b50503461010957817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc360112610109576020905160018152f35b50503461010957817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261010957602090517f00000000000000000000000000000000000000000000000000000000000000008152f35b84903461010957817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126101095780601260209252f35b7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9c42014281116104b75790565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9c4201904282116104b7576000917f000000000000000000000000000000000000000000000000000000000000000091819060009056fea26469706673582212201d9d3fb275e29bab6efc3347280dd45779a3b3cbc95154130ad9e155131bcaec64736f6c63430008170033",
+  "deployedBytecode": "0x608060408181526004918236101561001657600080fd5b600092833560e01c918263313ce567146104515750816350d25bcd146103f857816354fd4d50146103be578163668a0f02146103855781637284e416146102755781638205bf6a1461023a5781639a6fc8f5146101e1578163b5ab58dc14610180578163b633620c1461010d575063feaf968c1461009357600080fd5b3461010957817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261010957610105906100cd6104e6565b945169ffffffffffffffffffff94851681526020810193909352604083019190915260608201529116608082015290819060a0820190565b0390f35b5080fd5b82843461017d5760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261017d575081356101575760209061015061048a565b9051908152f35b517fbb258700000000000000000000000000000000000000000000000000000000008152fd5b80fd5b82843461017d5760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261017d5750813561015757602090517f00000000000000000000000000000000000000000000000000000000000000008152f35b82843461017d5760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261017d5782359069ffffffffffffffffffff821680920361017d575061015757610105906100cd6104e6565b50503461010957817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126101095760209061015061048a565b90503461038157827ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc360112610381578151908282019082821067ffffffffffffffff83111761035557508252600e81526020907f41676772656761746f724d6f636b0000000000000000000000000000000000006020820152825193849260208452825192836020860152825b84811061033f57505050828201840152601f017fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0168101030190f35b8181018301518882018801528795508201610303565b8460416024927f4e487b7100000000000000000000000000000000000000000000000000000000835252fd5b8280fd5b50503461010957817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126101095751908152602090f35b50503461010957817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc360112610109576020905160018152f35b50503461010957817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261010957602090517f00000000000000000000000000000000000000000000000000000000000000008152f35b84903461010957817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126101095780601260209252f35b7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9c42014281116104b75790565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9c4201904282116104b7576000917f000000000000000000000000000000000000000000000000000000000000000091819060009056fea26469706673582212201d9d3fb275e29bab6efc3347280dd45779a3b3cbc95154130ad9e155131bcaec64736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

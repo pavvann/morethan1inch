@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "ImmutablesLib",
+  "sourceName": "contracts/escrow/EscrowFactory.sol",
+  "abi": [],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea264697066735822122070e1df75091c14479acc77facf4ae482b1720d65c1b111b957b2c08103c6508564736f6c63430008170033",
+  "deployedBytecode": "0x600080fdfea264697066735822122070e1df75091c14479acc77facf4ae482b1720d65c1b111b957b2c08103c6508564736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

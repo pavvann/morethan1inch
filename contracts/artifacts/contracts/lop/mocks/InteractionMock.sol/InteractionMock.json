@@ -1,0 +1,225 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "InteractionMock",
+  "sourceName": "contracts/lop/mocks/InteractionMock.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "IncorrectTakingAmount",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "InvalidExtraDataLength",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "TakingAmountTooHigh",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "arg",
+          "type": "uint256"
+        }
+      ],
+      "name": "copyArg",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "salt",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "maker",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "receiver",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "makerAsset",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "takerAsset",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "makingAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "takingAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "MakerTraits",
+              "name": "makerTraits",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct IOrderMixin.Order",
+          "name": "",
+          "type": "tuple"
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "takingAmount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "extraData",
+          "type": "bytes"
+        }
+      ],
+      "name": "postInteraction",
+      "outputs": [],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "salt",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "maker",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "receiver",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "makerAsset",
+              "type": "uint256"
+            },
+            {
+              "internalType": "Address",
+              "name": "takerAsset",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "makingAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "takingAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "MakerTraits",
+              "name": "makerTraits",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct IOrderMixin.Order",
+          "name": "",
+          "type": "tuple"
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "takingAmount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "extraData",
+          "type": "bytes"
+        }
+      ],
+      "name": "preInteraction",
+      "outputs": [],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080806040523461001657610296908161001c8239f35b600080fdfe60808060405260048036101561001457600080fd5b600091823560e01c9081630986bdd5146100fe575080631ae4f1b6146100c25763462ebde21461004357600080fd5b346100be576020610053366101b3565b96509750509694505050501061009557351061006d575080f35b6040517ffb8ae129000000000000000000000000000000000000000000000000000000008152fd5b826040517f339a183e000000000000000000000000000000000000000000000000000000008152fd5b5080fd5b50346100be5760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126100be5760209060405190358152f35b90503461017c57602090610111366101b3565b965098975050979450505050106101555750350361012d575080f35b6040517f881db551000000000000000000000000000000000000000000000000000000008152fd5b807f339a183e00000000000000000000000000000000000000000000000000000000859252fd5b8280fd5b9181601f840112156101ae5782359167ffffffffffffffff83116101ae57602083818601950101116101ae57565b600080fd5b7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc81016101e081126101ae57610100136101ae5760049167ffffffffffffffff610104358181116101ae578361020b91600401610180565b9390939261012435926101443573ffffffffffffffffffffffffffffffffffffffff811681036101ae5792610164359261018435926101a435926101c4359182116101ae5761025c91600401610180565b909156fea2646970667358221220d1c15821f37de1629b0ced9e011e5c7609b46ed9a291e85ab887963e8d83393e64736f6c63430008170033",
+  "deployedBytecode": "0x60808060405260048036101561001457600080fd5b600091823560e01c9081630986bdd5146100fe575080631ae4f1b6146100c25763462ebde21461004357600080fd5b346100be576020610053366101b3565b96509750509694505050501061009557351061006d575080f35b6040517ffb8ae129000000000000000000000000000000000000000000000000000000008152fd5b826040517f339a183e000000000000000000000000000000000000000000000000000000008152fd5b5080fd5b50346100be5760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126100be5760209060405190358152f35b90503461017c57602090610111366101b3565b965098975050979450505050106101555750350361012d575080f35b6040517f881db551000000000000000000000000000000000000000000000000000000008152fd5b807f339a183e00000000000000000000000000000000000000000000000000000000859252fd5b8280fd5b9181601f840112156101ae5782359167ffffffffffffffff83116101ae57602083818601950101116101ae57565b600080fd5b7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc81016101e081126101ae57610100136101ae5760049167ffffffffffffffff610104358181116101ae578361020b91600401610180565b9390939261012435926101443573ffffffffffffffffffffffffffffffffffffffff811681036101ae5792610164359261018435926101a435926101c4359182116101ae5761025c91600401610180565b909156fea2646970667358221220d1c15821f37de1629b0ced9e011e5c7609b46ed9a291e85ab887963e8d83393e64736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

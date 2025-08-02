@@ -1,0 +1,37 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Errors",
+  "sourceName": "contracts/escrow/EscrowFactory.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "FailedCall",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "FailedDeployment",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "balance",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "needed",
+          "type": "uint256"
+        }
+      ],
+      "name": "InsufficientBalance",
+      "type": "error"
+    }
+  ],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea2646970667358221220065594ede63e5736c1e8dfcaada53d6823d004819faa0118a01918b1e269bd7a64736f6c63430008170033",
+  "deployedBytecode": "0x600080fdfea2646970667358221220065594ede63e5736c1e8dfcaada53d6823d004819faa0118a01918b1e269bd7a64736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

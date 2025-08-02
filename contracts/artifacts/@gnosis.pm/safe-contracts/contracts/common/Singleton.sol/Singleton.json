@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Singleton",
+  "sourceName": "@gnosis.pm/safe-contracts/contracts/common/Singleton.sol",
+  "abi": [],
+  "bytecode": "0x60808060405234601357603a908160198239f35b600080fdfe600080fdfea264697066735822122028887447c03799598d0a47e4345cd2c63b43de147f88bd5535b5dbd9368fe52464736f6c63430008170033",
+  "deployedBytecode": "0x600080fdfea264697066735822122028887447c03799598d0a47e4345cd2c63b43de147f88bd5535b5dbd9368fe52464736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

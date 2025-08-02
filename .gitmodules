@@ -1,0 +1,3 @@
+[submodule "contracts/limit-order-protocol"]
+	path = contracts/limit-order-protocol
+	url = https://github.com/1inch/limit-order-protocol.git

@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "RevertReasonForwarder",
+  "sourceName": "contracts/Resolver.sol",
+  "abi": [],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea2646970667358221220ef9bfdd8457b03c2eef1583a2cc4d70b3b29d2b54b6b9461f31ec0d2d7a8d6fd64736f6c63430008170033",
+  "deployedBytecode": "0x600080fdfea2646970667358221220ef9bfdd8457b03c2eef1583a2cc4d70b3b29d2b54b6b9461f31ec0d2d7a8d6fd64736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

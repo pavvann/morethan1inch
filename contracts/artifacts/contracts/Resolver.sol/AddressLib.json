@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "AddressLib",
+  "sourceName": "contracts/Resolver.sol",
+  "abi": [],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea26469706673582212201ab95e87542d57bed427dea3e1147931fd7c854da59bd13123364e1d00f0c59664736f6c63430008170033",
+  "deployedBytecode": "0x600080fdfea26469706673582212201ab95e87542d57bed427dea3e1147931fd7c854da59bd13123364e1d00f0c59664736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
